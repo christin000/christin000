@@ -1,0 +1,16 @@
+<svg width="1000" height="210" viewBox="0 0 1000 210" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2b3037"/><stop offset=".25" stop-color="#e4e7e8"/><stop offset=".4" stop-color="#555c64"/><stop offset=".62" stop-color="#f2f3f3"/><stop offset=".78" stop-color="#353b42"/><stop offset="1" stop-color="#171b21"/></linearGradient>
+<linearGradient id="gold"><stop stop-color="#8f691a"/><stop offset=".5" stop-color="#f1ca4d"/><stop offset="1" stop-color="#9b741e"/></linearGradient>
+</defs>
+<rect x="2" y="2" width="996" height="206" rx="18" fill="#090b0f" stroke="#3b4148" stroke-width="2"/>
+<path d="M20 48 C160 15 230 72 350 40 S600 10 750 48 S900 72 980 35" fill="none" stroke="url(#metal)" stroke-width="18" opacity=".75"/>
+<text x="38" y="34" fill="#d6dadd" font-family="monospace" font-size="13" letter-spacing="3">CORE LANGUAGE MATRIX</text>
+<text x="38" y="80" fill="#777f87" font-family="monospace" font-size="12">primary tools I reach for when building products and systems</text>
+<g font-family="monospace" font-weight="700">
+<rect x="38" y="105" width="205" height="70" rx="12" fill="#11151b" stroke="#7c838a"/><text x="58" y="148" fill="#f0f2f2" font-size="26">C++</text><text x="58" y="165" fill="#d6b23d" font-size="10" letter-spacing="2">SYSTEMS / GAMES</text>
+<rect x="263" y="105" width="205" height="70" rx="12" fill="#11151b" stroke="#7c838a"/><text x="283" y="148" fill="#f0f2f2" font-size="26">RUST</text><text x="283" y="165" fill="#d6b23d" font-size="10" letter-spacing="2">SYSTEMS / TOOLS</text>
+<rect x="488" y="105" width="205" height="70" rx="12" fill="#11151b" stroke="#7c838a"/><text x="508" y="148" fill="#f0f2f2" font-size="26">C</text><text x="508" y="165" fill="#d6b23d" font-size="10" letter-spacing="2">LOW LEVEL</text>
+<rect x="713" y="105" width="205" height="70" rx="12" fill="#11151b" stroke="#7c838a"/><text x="733" y="148" fill="#f0f2f2" font-size="26">PYTHON</text><text x="733" y="165" fill="#d6b23d" font-size="10" letter-spacing="2">AUTOMATION / AI</text>
+</g>
+</svg>

@@ -1,0 +1,45 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07090d"/><stop offset="0.5" stop-color="#11151b"/><stop offset="1" stop-color="#050609"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#555b63"/><stop offset="0.18" stop-color="#f4f5f5"/><stop offset="0.35" stop-color="#707780"/><stop offset="0.52" stop-color="#dfe2e3"/><stop offset="0.68" stop-color="#383e46"/><stop offset="0.84" stop-color="#bfc4c7"/><stop offset="1" stop-color="#4b5159"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8b6415"/><stop offset=".45" stop-color="#f0c94c"/><stop offset=".7" stop-color="#fff0a0"/><stop offset="1" stop-color="#9b7219"/></linearGradient>
+    <radialGradient id="metal" cx="35%" cy="35%" r="80%"><stop stop-color="#f3f4f4"/><stop offset=".18" stop-color="#626870"/><stop offset=".34" stop-color="#15191f"/><stop offset=".47" stop-color="#c9cdd0"/><stop offset=".56" stop-color="#343a42"/><stop offset=".72" stop-color="#090b0f"/><stop offset=".86" stop-color="#777e85"/><stop offset="1" stop-color="#0a0c10"/></radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".7"/></filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#9aa0a6" stroke-opacity=".055"/></pattern>
+  </defs>
+  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="17" fill="url(#grid)" stroke="#30363d"/>
+
+  <!-- liquid metal ribbons -->
+  <path d="M-80 95 C90 15 180 190 340 105 S590 25 730 95 S1010 205 1280 70" fill="none" stroke="#000" stroke-opacity=".7" stroke-width="76" filter="url(#blur)"/>
+  <path d="M-80 95 C90 15 180 190 340 105 S590 25 730 95 S1010 205 1280 70" fill="none" stroke="url(#chrome)" stroke-width="52" stroke-linecap="round" filter="url(#shadow)"/>
+  <path d="M-60 101 C95 31 180 185 340 112 S588 40 728 102 S1004 198 1260 78" fill="none" stroke="#080a0d" stroke-width="34" stroke-linecap="round"/>
+  <path d="M-40 103 C100 43 185 176 337 119 S588 55 724 108 S1000 188 1240 88" fill="none" stroke="url(#gold)" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+
+  <ellipse cx="1010" cy="255" rx="230" ry="95" fill="url(#metal)" opacity=".28" filter="url(#blur)"/>
+  <path d="M760 290 C835 220 900 320 980 270 S1130 215 1260 280" fill="none" stroke="url(#chrome)" stroke-width="30" opacity=".48"/>
+  <path d="M790 292 C850 245 910 310 982 277 S1135 230 1240 282" fill="none" stroke="url(#gold)" stroke-width="3" opacity=".65"/>
+
+  <!-- terminal frame -->
+  <rect x="72" y="74" width="700" height="216" rx="14" fill="#080a0e" fill-opacity=".82" stroke="#535a62" stroke-opacity=".5"/>
+  <rect x="72" y="74" width="700" height="38" rx="14" fill="#11151b"/>
+  <circle cx="96" cy="93" r="5" fill="#666d74"/><circle cx="113" cy="93" r="5" fill="#969ca1"/><circle cx="130" cy="93" r="5" fill="#d7dadd"/>
+  <text x="154" y="99" fill="#9ba1a7" font-family="monospace" font-size="13" letter-spacing="2">TALO // CORE TERMINAL</text>
+
+  <text x="104" y="155" fill="#c5c9cd" font-family="monospace" font-size="14">$ ./initialize_identity</text>
+  <text x="104" y="192" fill="url(#gold)" font-family="monospace" font-size="35" font-weight="700" letter-spacing="5">T.A.L.O.</text>
+  <text x="104" y="220" fill="#d9dcde" font-family="monospace" font-size="16" letter-spacing="1">SOFTWARE • GAMES • SYSTEMS • PRODUCTS</text>
+  <text x="104" y="255" fill="#737a82" font-family="monospace" font-size="13">building ideas into things people can actually use</text>
+  <text x="104" y="275" fill="#e5e7e8" font-family="monospace" font-size="13">status: <tspan fill="#d9b640">BUILDING</tspan>  //  mode: <tspan fill="#bfc4c8">EXPERIMENTAL</tspan></text>
+
+  <!-- metal orb -->
+  <circle cx="1010" cy="158" r="91" fill="url(#metal)" stroke="#9da3a8" stroke-opacity=".4" stroke-width="2" filter="url(#shadow)"/>
+  <path d="M938 120 C970 92 1015 110 1043 94 C1065 82 1091 94 1082 117 C1071 145 1033 139 1023 164 C1010 195 968 194 951 170 C938 151 928 137 938 120Z" fill="#090b0f" opacity=".68"/>
+  <path d="M957 128 C984 111 1006 132 1032 118 C1051 108 1065 115 1059 129 C1050 149 1020 143 1008 162 C994 184 971 171 962 158 C955 148 947 137 957 128Z" fill="none" stroke="url(#gold)" stroke-width="5" opacity=".9"/>
+  <circle cx="1090" cy="252" r="9" fill="#11151b" stroke="url(#gold)" stroke-width="2"/><circle cx="1090" cy="252" r="3" fill="#f0d25e"/>
+</svg>

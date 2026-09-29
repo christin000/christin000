@@ -1,0 +1,9 @@
+<svg width="1200" height="150" viewBox="0 0 1200 150" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="m" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b2027"/><stop offset=".22" stop-color="#dfe2e3"/><stop offset=".38" stop-color="#454b53"/><stop offset=".56" stop-color="#f1c94a"/><stop offset=".72" stop-color="#3a4047"/><stop offset="1" stop-color="#c7cbce"/></linearGradient></defs>
+<rect width="1200" height="150" rx="16" fill="#090b0f" stroke="#30363d"/>
+<path d="M-30 108 C150 30 270 135 430 72 S720 35 860 92 S1070 135 1230 52" fill="none" stroke="#020304" stroke-width="70" opacity=".8"/>
+<path d="M-30 108 C150 30 270 135 430 72 S720 35 860 92 S1070 135 1230 52" fill="none" stroke="url(#m)" stroke-width="34" opacity=".7"/>
+<text x="52" y="54" fill="#dfe2e3" font-family="monospace" font-size="13" letter-spacing="3">T.A.L.O. // END OF SESSION</text>
+<text x="52" y="82" fill="#737b83" font-family="monospace" font-size="12">keep building • keep experimenting • keep shipping</text>
+<circle cx="1090" cy="70" r="24" fill="#0c0f14" stroke="#d8b640" stroke-width="2"/><circle cx="1090" cy="70" r="8" fill="#d8b640" opacity=".9"/>
+</svg>
