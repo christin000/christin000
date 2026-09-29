@@ -15,7 +15,7 @@
 
 ## ◈ ABOUT
 
-> **Aspiring Computer Scientist · Game Developer · Builder**
+> **Aspiring Computer Scientist · Game Developer · Failing Entepreneur**
 >
 > My interest in computer science has grown through my experience in making commercial products.
 > I like working across software, game development, graphics, web technologies and systems — especially when a project forces me to learn something I don't already know.
